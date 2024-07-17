@@ -3,12 +3,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "flutter_lint/gem_version.rb"
 
 Gem::Specification.new do |spec|
-  spec.name          = "danger-flutter_lint"
+  spec.name          = "danger-flutter_lint-no-filter"
   spec.version       = FlutterLint::VERSION
-  spec.authors       = ["Mateusz Szklarek"]
-  spec.email         = ["mateusz.szklarek@gmail.com"]
-  spec.summary       = "A Danger Plugin to lint dart files using flutter analyze command line interface."
-  spec.homepage      = "https://github.com/mateuszszklarek/danger-flutterlint"
+  spec.authors       = ["hatt0519"]
+  spec.email         = ["moroku0519@gmail.com"]
+  spec.summary       = "original: https://github.com/mateuszszklarek/danger-flutterlint This is the fixed danger-flutterlint not to filter flutter analyze result"
+  spec.homepage      = "https://github.com/hatt0519/danger-flutter_lint"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
